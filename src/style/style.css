@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(255, 255, 255);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(255, 255, 255);
+  }
+.header{
+    height: 100vh;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-style{
+    border: none;
+}
+.logo{
+    height: 40px;
+    padding-top: 16px;
+}
+.background-image{
+    height: auto;
+}
+.col{
+    padding-top: 200px;
+    align-items: center;
+}
+h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 90px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+        
+}
+p{
+    font-family: Poppins;
+    font-style: normal;
+    width: auto;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 140%;
+    /* or 39px */
+    padding-top: 12px;
+    letter-spacing: 0.5px;
+
+    color: #FFFFFF;
+}
+
+form{
+    padding-top: 56px;
+}
+.fn{
+    
+    /* White */
+    /* position: absolute; */
+    
+    background-color: #5722A8;
+    width: 36%;
+    resize: vertical;
+    text-decoration: none;
+    font-family: Poppins;
+    border: none;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    color: #ffffff !important;
+}
+.fn:focus{
+    inset: #5722A8;;
+    /* box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1); inset, 0 0 0px rgba(126, 239, 104, 0.6); */
+    outline: 1px;
+}
+.fn:hover{
+    border: #B56AFF;
+}
+button{
+    margin-left: 24px;
+    padding-left: 36px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 36px;
+    outline: none;
+    border: none;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.1); 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+    text-transform: capitalize;
+
+    color: #7C3ADD;
+    }
+button:hover{
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.1);
+    color: #9A58FB;
+    
+}
